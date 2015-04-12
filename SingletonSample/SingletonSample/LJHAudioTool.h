@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Singleton.h"
 @interface LJHAudioTool : NSObject
-+ (instancetype)sharedAudioTool;
+//+ (instancetype)sharedAudioTool;
+singleton_h(AudioTool)
 @end

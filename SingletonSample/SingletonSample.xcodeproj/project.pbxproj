@@ -43,6 +43,7 @@
 		2DD4C90A1ADA9ECD0048992D /* SingletonSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonSampleTests.m; sourceTree = "<group>"; };
 		2DD4C9141ADA9F1D0048992D /* LJHAudioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJHAudioTool.h; sourceTree = "<group>"; };
 		2DD4C9151ADA9F1D0048992D /* LJHAudioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJHAudioTool.m; sourceTree = "<group>"; };
+		2DD4C9181ADAA2910048992D /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 		2DD4C8ED1ADA9ECD0048992D /* SingletonSample */ = {
 			isa = PBXGroup;
 			children = (
+				2DD4C9181ADAA2910048992D /* Singleton.h */,
 				2DD4C8F21ADA9ECD0048992D /* AppDelegate.h */,
 				2DD4C8F31ADA9ECD0048992D /* AppDelegate.m */,
 				2DD4C8F51ADA9ECD0048992D /* ViewController.h */,
@@ -354,6 +356,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = SingletonSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -364,6 +367,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = SingletonSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
