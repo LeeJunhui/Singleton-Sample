@@ -14,6 +14,7 @@
 		2DD4C8FC1ADA9ECD0048992D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD4C8FB1ADA9ECD0048992D /* Images.xcassets */; };
 		2DD4C8FF1ADA9ECD0048992D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DD4C8FD1ADA9ECD0048992D /* LaunchScreen.xib */; };
 		2DD4C90B1ADA9ECD0048992D /* SingletonSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD4C90A1ADA9ECD0048992D /* SingletonSampleTests.m */; };
+		2DD4C9161ADA9F1D0048992D /* LJHAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD4C9151ADA9F1D0048992D /* LJHAudioTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2DD4C9041ADA9ECD0048992D /* SingletonSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingletonSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD4C9091ADA9ECD0048992D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DD4C90A1ADA9ECD0048992D /* SingletonSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonSampleTests.m; sourceTree = "<group>"; };
+		2DD4C9141ADA9F1D0048992D /* LJHAudioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJHAudioTool.h; sourceTree = "<group>"; };
+		2DD4C9151ADA9F1D0048992D /* LJHAudioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJHAudioTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				2DD4C8FB1ADA9ECD0048992D /* Images.xcassets */,
 				2DD4C8FD1ADA9ECD0048992D /* LaunchScreen.xib */,
 				2DD4C8EE1ADA9ECD0048992D /* Supporting Files */,
+				2DD4C9141ADA9F1D0048992D /* LJHAudioTool.h */,
+				2DD4C9151ADA9F1D0048992D /* LJHAudioTool.m */,
 			);
 			path = SingletonSample;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 		2DD4C8E31ADA9ECD0048992D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LJH;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
@@ -222,6 +228,7 @@
 				2DD4C8F71ADA9ECD0048992D /* ViewController.m in Sources */,
 				2DD4C8F41ADA9ECD0048992D /* AppDelegate.m in Sources */,
 				2DD4C8F11ADA9ECD0048992D /* main.m in Sources */,
+				2DD4C9161ADA9F1D0048992D /* LJHAudioTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

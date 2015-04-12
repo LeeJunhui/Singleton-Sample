@@ -7,21 +7,22 @@
 //
 
 #import "ViewController.h"
-
+#import "LJHAudioTool.h"
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    LJHAudioTool *audio1 = [[LJHAudioTool alloc] init];
+    LJHAudioTool *audio2 = [LJHAudioTool sharedAudioTool];
+    
+    //通过打印内存地址来验证是否为同一对象
+    NSLog(@"%p %p",audio1,audio2);
 }
 
 @end
